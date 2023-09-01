@@ -1,0 +1,13 @@
+ir a la pag de git y crear el nuevo repositorio en github. pagina web generara los comandos.
+abrir la carpeta en Visual Estudio
+buscar el proyecto en la maquina local y hacer el git init -b main
+dir (para ver los archivos)
+git init -b main (inicializado el repositorio en el pc ycreado el ficheero.git / -b para crear la rama principal con el nombre main y evitar que git cree una rama primcipal con el nombre de master porque genera un error)
+git remote add origin https://github.com/PatiPat76/FLEXBOX.git ( enlaza el proyecto local con el remoto)
+git add . (agrega los archivos en el stage lo que no este en el stage no subiran en el commit)
+git status (para validar)
+//git add (agregar nombre del archivo), con esto se agrega un archivo particular//.
+ git commit -m "mensaje" 
+ git push -u origin main (sube los cambios locales al upstrem de la rama main)
+ sucesivas subidas al servidor remoto se hacen con git push.durante la subida por 1ra vez si se hace el push sin hacer el conmmit.
+
